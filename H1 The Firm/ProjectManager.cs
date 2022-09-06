@@ -17,8 +17,8 @@ namespace H1_The_Firm.Employees
 
         public override string ToString()
         {
-            string result = base.ToString();
-            result += "\nEmail: " + email;
+            string result =  base.ToString();
+                   result += "\nEmail: " + email;
 
             return result;
         }
