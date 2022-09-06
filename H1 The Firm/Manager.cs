@@ -17,10 +17,8 @@ namespace H1_The_Firm.Employees
 
         public override string ToString()
         {
-            string result =  "First name: " + firstName + '\n';
-            result += "Last name: " + lastName + '\n';
-            result += "CPR-number (vildt nok at vi bare skriver folks CPR-numre ud i en ToString()): " + cprNumber + '\n';
-            result += "Phonenumber: " + phoneNumber;
+            string result = base.ToString();
+            result += "\nPhonenumber: " + phoneNumber;
             return result;
         }
     }

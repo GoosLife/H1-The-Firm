@@ -24,5 +24,14 @@ namespace H1_The_Firm.Employees
             this.lastName = lastName;
             this.cprNumber = cprNumber;
         }
+
+        public override string ToString()
+        {
+            string result = "First name: " + firstName + '\n';
+            result += "Last name: " + lastName + '\n';
+            result += "CPR-number: " + cprNumber; // I have concerns about outputting employees' CPR-number like this ???
+
+            return result;
+        }
     }
 }

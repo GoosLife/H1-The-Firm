@@ -14,5 +14,13 @@ namespace H1_The_Firm.Employees
         {
             this.email = email;
         }
+
+        public override string ToString()
+        {
+            string result = base.ToString();
+            result += "\nEmail: " + email;
+
+            return result;
+        }
     }
 }
